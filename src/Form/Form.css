@@ -2,57 +2,165 @@
 @media only screen and (min-width: 320px) {
   body {
     font: 'GHEA Mariam';
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    left: 0px;
-    top: 0px;
     background-color: #21354B;
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 378px;
-    height: 219px;
-    font-family: 'GHEA Mariam';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #EEEBE6;
-  }
-  footer {
-    bottom: 90px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #FF69B4;
+
+  .container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  left: 45px;
+  top: 56px;
+  font-family: 'GHEA Mariam';
+  font-style: normal;
+  font-weight: 200px;
+  line-height: 60%;
+  letter-spacing: 0.03em;
+  color: #EEEBE6;
+}
+
+.services {
+  position: absolute;
+  bottom: 767px;
+
+  font-family: 'GHEA Grapalat';
+  font-style: normal;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #EEEBE6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 499px;
+  height: 57px;
+  left: 37px;
+  top: 217px;
+}
+
+label {
+  left: 4.64%;
+  color:rgb(73, 59, 66);
+  background: #5b5858;
+}
+
+footer {
+  position: absolute;
+  bottom: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FF69B4;
+}
+
+  .services h2 {
+    margin-right: 20px;
   }
 
-  .header {
-    margin-top: 40px;
-  }
-  .project {
-    margin-top: 40px;
-  }
+
   div {
     color: #EEEBE6;
   }
+  
+  hr {
+    height: 2px;
+    width: 536px;
+  }
+  
+  a {
+    color: rgba(255, 105, 180, 1)
+  }
+
+  input {
+    background-color: #21354B;
+  }
+
+  ::placeholder {
+    color: #EEEBE6;
+  }
+
+
+  .submit {
+    width: 145px;
+    height: 50px;
+    color: #EEEBE6;
+    border-radius: 45% 45% 45% 45%;
+    border-color: #EEEBE6;
+    outline: none;
+    margin-top: 35px;
+  }
+
+  #call {
+  font-family: 'GHEA Grapalat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #423012;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    margin-top: 35px;
+  }
+
+  button {
+    position: absolute;
+    background-color: #21354B;
+    left: -20px;
+    top: 200px
+  }
+
+  .privasy {
+    position: absolute;
+    left: 205px;
+    top: 235px;
+  }
+
+  .pryvacy-policy {
+    position: absolute;
+    color: #EEEBE6;
+    left: 205px;
+    top: -15px;
+    height: 18px;
+  }
+
+  .hot {
+    position: absolute;
+    left: 2px;
+    top: 70px;
+    font-family: 'GHEA Grapalat';
+    font-weight: 400;
+  }
+
+  .cold {
+    position: absolute;
+    left: 506px;
+    top: 70px;
+    font-family: 'GHEA Grapalat';
+    font-weight: 400;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
   body {
     font: 'GHEA Mariam';
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    left: 0px;
-    top: 0px;
     background-color: #21354B;
   }
 
@@ -210,6 +318,23 @@ footer {
     top: -15px;
     height: 18px;
   }
+
+  .hot {
+    position: absolute;
+    left: 2px;
+    top: 70px;
+    font-family: 'GHEA Grapalat';
+    font-weight: 400;
+  }
+
+  .cold {
+    position: absolute;
+    left: 506px;
+    top: 70px;
+    font-family: 'GHEA Grapalat';
+    font-weight: 400;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
