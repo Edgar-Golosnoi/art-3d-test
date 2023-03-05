@@ -65,8 +65,6 @@
   background-color: #c7c1c1;
 }
 
-
-
 .slice:hover {
   border: 2px solid #1f79a5;
 }
@@ -89,8 +87,6 @@
 
 #color-pink {
   background-color: #FF69B4;
-  left: 687px;
-  top: 502px;
 }
 
 #color-pink:hover {
@@ -109,8 +105,7 @@
 
 #color-gray {
   background-color: #D9D9D9;
-  left: 687px;
-  top: 490px;
+
 }
 
 #color-gray:hover {
